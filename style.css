@@ -60,3 +60,11 @@ nav {
         font-size: 1rem;
     }
 }
+
+.pastQuotesSection div {
+    margin-top: 7px;
+}
+
+.subtitle {
+    font-size: 1rem;
+}

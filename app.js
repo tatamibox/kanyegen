@@ -17,14 +17,14 @@ const appendOldQuotes = () => {
 
     if (counter <= 5) {
         const old = document.createElement('div');
-        old.innerHTML = `"${mainQuote.innerHTML}"`;
+        old.innerHTML = `${mainQuote.innerHTML}`;
         pastQuotesSection.appendChild(old);
     } else if (counter > 5) {
 
         const firstChild = pastQuotesSection.getElementsByTagName('div')[0];
         pastQuotesSection.removeChild(firstChild);
         const old = document.createElement('div');
-        old.innerHTML = `"${mainQuote.innerHTML}"`;
+        old.innerHTML = `${mainQuote.innerHTML}`;
         pastQuotesSection.appendChild(old);
     }
 
