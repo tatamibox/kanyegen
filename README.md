@@ -3,5 +3,5 @@ Kanye Gen is an entertainment app which randomly generates a quote once said by 
 
 Site is live at: [tatamidex.netlify.app](https://kanyegen.netlify.app)
 
-Preview:
+
 Preview: ![preview](imgs/previewKG.PNG)
