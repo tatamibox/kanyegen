@@ -18,7 +18,6 @@
     background-color: #ffcdb2;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
 }
 
 .column,
@@ -40,7 +39,24 @@ button {
     cursor: pointer;
 }
 
+nav {
+    height: 30%;
+}
 
 .emphasized {
     font-weight: bold;
+}
+
+
+
+@media (max-width: 480px) {
+    .mainQuote {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainQuote {
+        font-size: 1rem;
+    }
 }
